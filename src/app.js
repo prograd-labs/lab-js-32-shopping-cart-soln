@@ -44,7 +44,7 @@ class MenuItem{
         name.textContent = this.name;
         let price = document.createElement('b');
         price.classList.add('price');
-        price.textContent = this.price;
+        price.textContent = `RS. ${this.price}`;
         footer.append(name,price);
         menuItem.append(image,overlay,button,footer);
         return menuItem;

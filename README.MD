@@ -194,10 +194,10 @@ Phineas and Ferb wants to search for items based on name. Help them by adding a 
 
 Phineas and Ferb now wants to sort the search result in alphabetical order.Add your logic to `searchItems()` method such that it should _return the array of item names_ in sorted order. Hint use chaining methods.
 
-# Anticipated Output
+### Expected Output
 
-<kbd>![Shopping Cart](docs/shopping-cart-1.png)
-<kdb>![Shopping Cart](docs/shopping-cart-2.png)
-<kdb>![Shopping Cart](docs/shopping-cart-3.png)
-<kdb>![Shopping Cart](docs/shopping-cart-4.png)
-<kdb>![Shopping Cart](docs/shopping-cart-5.png)
+![Shopping Cart](docs/shopping-cart-1.png)
+![Shopping Cart](docs/shopping-cart-2.png)
+![Shopping Cart](docs/shopping-cart-3.png)
+![Shopping Cart](docs/shopping-cart-4.png)
+![Shopping Cart](docs/shopping-cart-5.png)

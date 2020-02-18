@@ -20,7 +20,7 @@ class MenuItem{
     {
         this.id = id;
         this.name = name;
-        this.image = `../assets/product-${id}.png`;
+        this.image = `assets/product-${id}.png`;
         this.price = price;
     }
    

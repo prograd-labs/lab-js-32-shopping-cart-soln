@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Cup o' Joy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="title">Cup o' Joy</h3>
+            <h4 class="cart-icon"><span class="shopping-cart" 
+                id="cart-btn"><i data-feather="shopping-cart"></i></span>
+            </h4>
+        </div>
+        <div class="inner-container" id="menu-container">
+            <div class="left">
+                <img src="../assets/coffee_break.svg" class="welcome-img"/>
+            </div>
+            <div class="right">
+                <h2 class="intro">Get your favourite drinks</h2>
+                <p class="brief">Lorem ipsum dolor sit amet, 
+                consetetur sadipscing elitr, sed diam nonumy eirmod 
+                tempor invidunt ut labore et dolore magna</p>
+                <button class="order-btn" id="order-now">Order Now</button>
+            </div>
+        </div>
+        <h3 class="category" id="category-heading">
+            <span class="category-decorator">Beve</span>rages</h3>
+        <div class="item-holder" id="items-container">
+        </div>
+    </div>
+    <div class="cart" id="cart-container">
+        <h1 class="cart-title">Your Orders</h1>
+        <div class="item-summary" id="cart-summary">
+            <div class="thumbnail" id="thumbnails">
+            </div>
+            <div class="product" id="products">
+            </div>
+            <div class="price" id="prices">
+            </div>
+            <div class="quantity" id="quantity-holder">
+            </div>
+            <div class="total" id="total-holder">
+            </div>
+            <div class="remove" id="remover">
+            </div>
+        </div>
+        <div class="order-summary" id="total-summary">
+         <div class="top"></div>
+         <div class="sub-total">
+         <span class="sub-total-head">Sub total : &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;<b class="sub-total-amount" 
+            id="sub-total">Rs.340</b></span>
+        <button class="payment-btn" id="payment">Proceed With Payment</button>
+        <button class="view-menu-btn" id="view-menu">View Menu</button>
+        </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="app.js"></script>
+</body>
+</html>
